@@ -60,11 +60,5 @@ java -cp out Main
 
 Alternatif: Bir jar dosyası üretip `images` klasörünü jar dışında aynı dizine kopyalayarak da çalıştırabilirsiniz.
 
-### Sık Karşılaşılan Sorunlar
-- Görseller yüklenmiyor: `Main#loadScaled` kaynakları sınıf yolundan `/images/...` olarak arar. Çalıştırırken `images` klasörünün sınıf yolunun kökünde olduğundan emin olun (örneğin `out/images`).
-- Türkçe karakter ve fontlar: Sistem yazı tipleri kullanılır; işletim sisteminizin Türkçe yerel ayarlarıyla uyumludur.
-
-### Lisans
-Bu proje eğitim amaçlı bir örnektir. Dilediğiniz gibi inceleyip uyarlayabilirsiniz.
 
 
